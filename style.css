@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#timer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-letters{
+    padding: 30px 65px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.number{
+    font-size: 70px;
+}
